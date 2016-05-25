@@ -1,0 +1,43 @@
+html{
+  text-shadow: 1px 0px white, -1px 0px white, 0px 1px white, 0px -1px white;
+}
+body {
+  background-image: url("../images/class_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-color: black;
+}
+
+.container {
+  margin: 0 10% 0 10%;
+}
+
+p {
+  font-size: 20px;
+}
+
+.intro {
+  max-width: 50%;
+  margin-left: 25%;
+  font-style: italic;
+}
+
+.classy {
+  font-family: cursive;
+}
+
+.list {
+  margin: 5% 20% 0 20%;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+li:before {
+  content: "\2022";
+  color: white;
+  padding-right: 8px;
+}
